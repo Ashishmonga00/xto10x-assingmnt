@@ -1,0 +1,83 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid rgba(28, 28, 28, 0.6);
+  align-items: center;
+  padding: 0 1rem;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+
+  color: white;
+}
+input {
+  /* background-color: black; */
+  height: 30px;
+  padding: 0.5rem;
+  background: rgba(28, 30, 34, 1);
+  outline: none;
+  border: none;
+  width: 434px;
+  border-radius: 5px;
+  color: white;
+}
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 104rem;
+  gap: 1rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.filterbtn {
+  padding: 0.5rem;
+  /* background-color: black; */
+  /* border: 1px solid black; */
+}
+.gameCard {
+  background-color: #32383e;
+  color: white;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.gameCard h3 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+.gameCard p {
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 14.52px;
+  text-align: left;
+}
+
+.thumbnail {
+  width: 300px;
+  height: 300px;
+}
+.genreContainer {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 2px 7px 2px 7px;
+  border-radius: 999px;
+  /* border-radius: "999px"; */
+  background: rgba(122, 130, 136, 1);
+}
+
+.description {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
